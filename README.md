@@ -128,9 +128,11 @@ fastcgi_param PHP_VALUE "auto_prepend_file=/home/www/xhgui/external/header.php";
             $xh_cur_url = $arr_xh_cur_url[0];
             if(in_array($xh_cur_url, $xh_conf_urls)){
                 return true;
-            }
+            }俄s3e
         }
         return false;
        //rand(1, 100) === 42;
     },
 ```
+- xhgui https://github.com/perftools/xhgui
+- xhgui中文 https://github.com/laynefyc/xhgui-branch

@@ -1,1 +1,0 @@
-{"virtualbox":{"/home/www":{"guestpath":"/home/www","hostpath":"/Users/www/aweb/ubuntu_1404_lnmp_public/www","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/www/aweb/ubuntu_1404_lnmp_public","disabled":false,"__vagrantfile":true}}}
