@@ -1,4 +1,4 @@
-# ubuntu_1404_lnmp 环境搭建说明
+# ubuntu_1404_lnmp 跨平台环境搭建说明
 
 ## 软件依赖
 
@@ -14,14 +14,18 @@
   - vagrant_2.1.2_x86_64.dmg
   
   百度网盘下载： 链接:https://pan.baidu.com/s/14or08UfUNvVibFTjzpxw_w  密码:yap9
+  
+- ubuntu_1404_lnmp_public.box 镜像
 
+	百度网盘下载：链接:https://pan.baidu.com/s/1F7gdKvUiwDvh59luGhBAxw  密码:274n
+	
 ## 创建目录示例(windows)
 
 - vagrant 环境目录 d:/vagrant
 
 ```
 |--vagrant
-|  |--ubuntu_1604_lnmp
+|  |--ubuntu_1604_lnmp_public
 |  |  |--dev 开发环境nginx配置
 |  |  |  |--test.conf  测试站nginx配置
 |  |  |  |--xhprof.test.conf  性能分析nginx配置
@@ -85,14 +89,17 @@
 
 ## 服务管理
 - nginx
-  ``` 
-  sudo service nginx start|stop|restart|reload|force-reload|status|configtest|rotate|upgrade
-  ```
+
+``` 
+sudo service nginx start|stop|restart|reload|force-reload|status|configtest|rotate|upgrade
+```
 - mysql
+
 ``` 
 sudo service mysql start|stop|restart|reload|force-reload|status
 ```
 - php-fpm
+
 ``` 
 sudo service php-fpm force-reload|reload|restart|start|status|stop  
 ```
