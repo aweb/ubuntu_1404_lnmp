@@ -70,7 +70,9 @@ Vagrant.configure("2") do |config|
 
   # nzing custom setting
   # box name
-  config.vm.box = "ubuntu_1404_lnmp_public"
+  config.vm.box = "ubuntu_1404_lnmp"
+  #config.vm.box = "aweb/ubuntu_1404_lnmp"
+  #config.vm.box_version = "1.0"
   config.ssh.insert_key = false
   config.ssh.username = "vagrant"
   config.ssh.password = "vagrant"
@@ -91,8 +93,8 @@ Vagrant.configure("2") do |config|
   # 虚拟机配置
   config.vm.provider "virtualbox" do |vb|
      vb.gui = false 
-     vb.cpus = "2"
+     vb.cpus = "1"
      vb.name = "ubuntu_1404_lnmp_public"
-     vb.memory = "2048"
+     vb.memory = "1024"
   end
 end

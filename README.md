@@ -41,20 +41,35 @@
 ```
 
 ##  部署说明
-- step1: 解压ubuntu_1404_lnmp_public.zip 到 d:/vagrant/ubutn_1404_lnmp_public
+- step1: 获取配置信息（压缩包 或 git clone 任选其一）
+     - 压缩包：解压ubuntu_1404_lnmp_public.zip 到 d:/vagrant/ubuntu_1404_lnmp_public
+     - git clone: git clone git@github.com:aweb/ubuntu_1404_lnmp.git d:/vagrant/ubuntu_1404_lnmp_public
 
 - Step1: 百度网盘获取下载相关文件
-	- ubuntu_1404_lnmp_public.box 镜像
+	- ubuntu_1404_lnmp.box 镜像
 	- vagrant、virtualbox、xshell 相关软件并安装
 - Step2: git检出ubuntu_1404_lnmp_public 项目到 d:/vagrant/ubuntu_1404_lnmp_public
 
-- setp3: 切换到 d:/vagrant/ubuntu_1604_lnmp_public, 命令行执行：
-  ```
-  // 从文件添加镜像到box
-  vagrant box add ubuntu_1404_lnmp ubuntu_1404_lnmp.box
-  // 创建并启动虚拟机
-  vagrant up 
-  ```
+- setp3: 切换到 d:/vagrant/ubuntu_1604_lnmp_public, 选择一下任意方式：
+	  - 下载ubuntu_1404_lnmp.box 镜像安装
+	  
+	  ```
+	  // 从文件添加镜像到box
+	  vagrant box add ubuntu_1404_lnmp ubuntu_1404_lnmp.box
+	  // 创建并启动虚拟机
+	  vagrant up 
+	  ```
+	  
+	  - 从vagrant cloud 在线安装
+	  
+	  ```
+	  // 取消Vagrantfile 以下两行注视
+	    #config.vm.box = "aweb/ubuntu_1404_lnmp"
+       #config.vm.box_version = "1.0"
+	  // 创建并启动虚拟机
+	  vagrant up 
+	  ```
+	  
 - step4: 将start_run.bat 添加快捷方式到桌面并添加到开机启动（win + R 输入 shell:startup，将快捷方式添加到文件夹）
 
 - step5: Done 
