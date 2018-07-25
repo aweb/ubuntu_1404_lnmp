@@ -50,6 +50,7 @@
 	- vagrant、virtualbox、xshell 相关软件并安装
 
 - setp3: 切换到 d:/vagrant/ubuntu_1604_lnmp_public, 选择一下任意方式：
+
 	  - 下载ubuntu_1404_lnmp.box 镜像安装
 	  
 	  ```
