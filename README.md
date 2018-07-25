@@ -17,7 +17,11 @@
   
 - ubuntu_1404_lnmp_public.box 镜像
 
-	百度网盘下载：链接:https://pan.baidu.com/s/1F7gdKvUiwDvh59luGhBAxw  密码:274n
+	百度网盘下载：链接:https://pan.baidu.com/s/1GgN6ll0KkPZeKXZeLWHy1w  密码:bsoe
+	
+- vagrant cloud 镜像：
+   
+   https://app.vagrantup.com/aweb/boxes/ubuntu_1404_lnmp/versions/1.0
 	
 ## 创建目录示例(windows)
 
