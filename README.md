@@ -45,10 +45,9 @@
      - 压缩包：解压ubuntu_1404_lnmp_public.zip 到 d:/vagrant/ubuntu_1404_lnmp_public
      - git clone: git clone git@github.com:aweb/ubuntu_1404_lnmp.git d:/vagrant/ubuntu_1404_lnmp_public
 
-- Step1: 百度网盘获取下载相关文件
+- Step2: 百度网盘获取下载相关文件
 	- ubuntu_1404_lnmp.box 镜像
 	- vagrant、virtualbox、xshell 相关软件并安装
-- Step2: git检出ubuntu_1404_lnmp_public 项目到 d:/vagrant/ubuntu_1404_lnmp_public
 
 - setp3: 切换到 d:/vagrant/ubuntu_1604_lnmp_public, 选择一下任意方式：
 	  - 下载ubuntu_1404_lnmp.box 镜像安装
@@ -63,7 +62,7 @@
 	  - 从vagrant cloud 在线安装
 	  
 	  ```
-	  // 取消Vagrantfile 以下两行注视
+	  // 取消Vagrantfile 以下两行注释
 	    #config.vm.box = "aweb/ubuntu_1404_lnmp"
        #config.vm.box_version = "1.0"
 	  // 创建并启动虚拟机
