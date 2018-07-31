@@ -17,7 +17,7 @@
   
 - ubuntu_1404_lnmp_public.box 镜像
 
-	百度网盘下载：链接:https://pan.baidu.com/s/1GgN6ll0KkPZeKXZeLWHy1w  密码:bsoe
+	百度网盘下载：链接:https://pan.baidu.com/s/1wdGxfmcONPX7n-1yYzFi_Q  密码:n4s4
 	
 - vagrant cloud 镜像：
    
